@@ -1,4 +1,4 @@
-# Reverse a String
+# Reverse a String GFG
 
 You are given a string `s`, and your task is to reverse it. The reversed string should have all characters in the opposite order compared to the original string.
 
@@ -180,5 +180,3 @@ int main() {
 | Built-in `std::reverse`   | \(O(n)\)            | \(O(1)\)              | Best for simplicity            |
 | Two-pointer technique     | \(O(n)\)            | \(O(1)\)              | Good for manual implementation |
 | Using a new string        | \(O(n)\)            | \(O(n)\)              | Not optimal for large strings  |
-
-**Recommendation**: Use `std::reverse` for simplicity and efficiency. For learning, try implementing the two-pointer technique.
